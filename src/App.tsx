@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Brain, Zap, Users, MessageSquare, FileText, ChevronDown, Star, AlertTriangle, Heart, LogOut, History, User, Crown, Baseline as Timeline, Upload, Network, FileSignature, Ghost, TrendingUp } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Brain, Users, MessageSquare, ChevronDown, LogOut, History, User, Crown, Baseline as Timeline, Upload, Network, FileSignature, Ghost, TrendingUp } from 'lucide-react';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { SubscriptionProvider, useSubscription } from './contexts/SubscriptionContext';
 import SplashScreen from './components/SplashScreen';
